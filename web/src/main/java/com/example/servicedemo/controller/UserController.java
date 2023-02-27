@@ -4,7 +4,6 @@ import com.example.servicedemo.domain.User;
 import com.example.servicedemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import reactor.core.publisher.Mono;
 
 @RestController
 public class UserController {
